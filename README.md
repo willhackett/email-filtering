@@ -2,6 +2,12 @@
 
 This project uses Ollama's local LLMs to analyse and categorise emails for Fastmail. In production you can use Cloudflare Email Routing with Workers AI to add custom headers to incoming emails based on their content. In Fastmail, you can then create rules to automatically organize, flag, or delete emails based on these headers.
 
+This repository was part of a blog post, you can read it [here](https://willhackett.uk/fixing-email-spam-with-ai/). 
+
+[![](https://willhackett.uk/og/fixing-email-spam-with-ai/og-default.png)](https://willhackett.uk/fixing-email-spam-with-ai/)
+*[Fixing email spam with AI: When traditional filters aren't enough](https://willhackett.uk/fixing-email-spam-with-ai/)*
+
+
 Get up and running in 5 minutes.
 
 ## Testing Locally (Recommended First Step)
