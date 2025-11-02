@@ -1,5 +1,6 @@
-# Logs
+.DS_Store
 
+# Logs
 logs
 _.log
 npm-debug.log_
@@ -165,3 +166,9 @@ dist
 .env*
 !.env.example
 .wrangler/
+
+# Test data - contains sensitive email content
+__test_emails__/
+test-results*.json
+test-results*.csv
+test/ground-truth.json

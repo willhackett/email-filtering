@@ -25,32 +25,19 @@
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
-	// "vars": { "MY_VARIABLE": "production_value" }
+	"vars": {
+		"FASTMAIL_EMAIL": "your-email@fastmail.com"
+	},
 	/**
 	 * Note: Use secrets to store sensitive data.
+	 * Set your Fastmail email address: wrangler secret put FASTMAIL_EMAIL
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
 	 */
 	/**
-	 * Static Assets
-	 * https://developers.cloudflare.com/workers/static-assets/binding/
+	 * Workers AI Binding
+	 * https://developers.cloudflare.com/workers-ai/
 	 */
-	// "assets": { "directory": "./public/", "binding": "ASSETS" }
-	/**
-	 * Service Bindings (communicate between multiple Workers)
-	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
-	 */
-	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
-	"queues": {
-		"consumers": [
-			{
-				"queue": "my-queue"
-			}
-		],
-		"producers": [
-			{
-				"binding": "MY_QUEUE",
-				"queue": "my-queue"
-			}
-		]
+	"ai": {
+		"binding": "AI"
 	}
 }

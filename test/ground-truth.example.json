@@ -1,0 +1,17 @@
+[
+  {
+    "filename": "example-newsletter.eml",
+    "category": "newsletter",
+    "notes": "Weekly tech newsletter from a known source"
+  },
+  {
+    "filename": "example-phishing.eml",
+    "category": "phishing",
+    "notes": "Fake password reset email with suspicious link"
+  },
+  {
+    "filename": "example-transactional.eml",
+    "category": "transactional",
+    "notes": "Order confirmation from Amazon"
+  }
+]

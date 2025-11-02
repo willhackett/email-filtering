@@ -6,9 +6,17 @@
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"test": "tsx test/analyze.ts",
+		"test:label": "tsx test/label.ts",
+		"test:check": "tsx test/check-setup.ts"
 	},
 	"devDependencies": {
+		"@types/mailparser": "^3.4.4",
+		"@types/node": "^22.10.2",
+		"mailparser": "^3.7.1",
+		"ollama": "^0.5.11",
+		"tsx": "^4.19.2",
 		"typescript": "^5.5.2",
 		"wrangler": "^4.45.3"
 	}
